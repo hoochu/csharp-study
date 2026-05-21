@@ -32,6 +32,38 @@
             Console.WriteLine("true");
             // Output: True
             Console.WriteLine(true);
+
+            //string firstName;
+            //Console.WriteLine(firstName);
+            //firstName = "Bob";
+            //Console.WriteLine(firstName);
+            //firstName = "Liem";
+            //Console.WriteLine(firstName);
+            //firstName = "Isabella";
+            //Console.WriteLine(firstName);
+            //firstName = "Yasmin";
+            //Console.WriteLine(firstName);
+            //string firstName = "Bob";
+            //Console.WriteLine(firstName);
+            string firstNameKor = "밥";
+            int number = 3;
+            float temper = 34.4f;
+            Console.WriteLine(firstNameKor);
+            Console.WriteLine(number);
+            Console.WriteLine(temper);
+            Console.WriteLine("Hello, Bob! You have " + number + " messages in your inbox. The temperature is " + temper + "celsius.");
+
+            string name = "Bob";
+            int messages = 3;
+            decimal temperature = 34.4m;
+
+            Console.Write("Hello, ");
+            Console.Write(name);
+            Console.Write("! You have ");
+            Console.Write(messages);
+            Console.Write(" messages in your inbox. The temperature is ");
+            Console.Write(temperature);
+            Console.Write(" celsius.");
         }
     }
 }
